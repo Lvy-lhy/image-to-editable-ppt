@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片转可编辑PPT"
+  short_description: "把单页图片或多页长截图拆解为可编辑PPT，支持拆页去重、样式复刻和指定模板"
+  default_prompt: "使用 $image-to-editable-ppt 将这些图片中的可见页面重建为可编辑PPT，长截图先拆页去重；如附有PPT模板，请套用模板。"

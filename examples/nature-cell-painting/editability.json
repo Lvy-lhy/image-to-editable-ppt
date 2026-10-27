@@ -1,0 +1,37 @@
+{
+  "file": "output.pptx",
+  "slide_count": 1,
+  "slide_size_emu": [
+    19554825,
+    8972550
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "part": "ppt/slides/slide1.xml",
+      "native_shape_objects": 115,
+      "native_text_boxes": 41,
+      "native_text_characters": 670,
+      "connectors": 24,
+      "picture_objects": 10,
+      "graphic_frames": 0,
+      "groups": 0,
+      "native_tables": 0,
+      "native_charts": 0,
+      "table_cells": 0,
+      "image_filled_shapes": 0,
+      "linked_image_references": 0,
+      "page_covering_image_candidates": [],
+      "unmeasured_images": [],
+      "warnings": [],
+      "slide_background_image": false,
+      "total_objects_excluding_groups": 149
+    }
+  ],
+  "limits": [
+    "Object inventory is not proof of fidelity, legibility or full editability.",
+    "Masters/layouts are not expanded. Review inherited artwork and placeholders visually.",
+    "Image bounds with rotation/reflection or missing transforms require visual review.",
+    "Connector counts do not prove endpoint binding; text runs are not text boxes."
+  ]
+}

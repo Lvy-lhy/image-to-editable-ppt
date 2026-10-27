@@ -11,6 +11,24 @@
 - 照片和真实算法结果作为独立、可替换的图片嵌入。
 - 导出后检查页面覆盖、视觉效果及对象可编辑性。
 
+## 实际案例
+
+使用 *Nature Communications*（2024）论文 **Learning representations for image-based profiling of perturbations** 的 Figure 1，展示完整论文图转为可编辑 PPT 的效果。保留 A–G 全部面板。
+
+[下载可编辑 PPT](examples/nature-cell-painting/output.pptx) · [原始图片](examples/nature-cell-painting/input.png) · [案例说明与对象检查](examples/nature-cell-painting/README.md)
+
+**论文原图：**
+
+![Nature Communications Figure 1 原图](examples/nature-cell-painting/input.png)
+
+**可编辑 PPT 的实际渲染：**
+
+![Nature Communications Figure 1 可编辑重建结果](examples/nature-cell-painting/preview.png)
+
+共 149 个独立对象：41 个原生文本框、98 个图形与连线、10 个独立图片对象。照片、连续密度场及特征向量保留原图像素；其内部标注仍为像素。文字、示意结构及符号经原生重绘，字体与几何外观存在细节差别。没有重新运行论文算法，也没有生成新的实验结果。
+
+图片来源：[Moshkov et al., Nature Communications 15, 1594 (2024), Fig. 1](https://doi.org/10.1038/s41467-024-45999-1)，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 使用；PPT 为改编版本，来源与改编说明同时保留在页脚和备注。对象数不能换算为“可编辑百分比”。
+
 ## 使用条件
 
 需要支持本地技能的 Codex 环境，以及可用的 `presentations:Presentations` 演示文稿技能与其 JavaScript `@oai/artifact-tool` 运行环境。本仓库只包含图片重建技能和辅助检查脚本，相关应用、模型和运行库需由使用环境提供。
@@ -103,6 +121,7 @@ python -m unittest discover -s scripts -p "test_*.py" -v
 - [references/reconstruction.md](references/reconstruction.md)：对象重建、图表及模板适配。
 - [scripts/inspect_editability.py](scripts/inspect_editability.py)：只读 PPTX 对象检查。
 - [scripts/test_inspect_editability.py](scripts/test_inspect_editability.py)：检查脚本测试。
+- [examples/README.md](examples/README.md)：真实转换案例、输入素材、可编辑 PPT 和对象检查结果。
 
 ## 验证范围
 

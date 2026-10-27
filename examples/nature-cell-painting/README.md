@@ -7,6 +7,7 @@
 | [input.png](input.png) | 出版社完整原图，2053 × 884 像素，包含 A–G 七个面板 |
 | [output.pptx](output.pptx) | 一页可编辑重建，保留全部面板，底部增加来源与改编说明 |
 | [preview.png](preview.png) | 最终 PPT 在本机 WPS 中实际导出的预览，2053 × 942 像素 |
+| [editing-screenshot.png](editing-screenshot.png) | 用户提供的编辑状态截图，展示多个独立对象的选择框、控制点和旋转手柄 |
 | [editability.json](editability.json) | 仓库检查脚本对最终 PPTX 的只读对象统计 |
 
 **原图：**
@@ -16,6 +17,12 @@
 **重建结果：**
 
 ![可编辑 PPT 实际渲染](preview.png)
+
+**编辑状态（用户提供的截图）：**
+
+![多个独立对象被选中时的编辑界面](editing-screenshot.png)
+
+可见各对象的选择框、控制点与旋转手柄。这张截图用于展示对象选中状态；图片内部像素的可编辑限制仍按下方说明。
 
 ## 可编辑范围
 

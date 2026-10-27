@@ -25,6 +25,12 @@
 
 ![Nature Communications Figure 1 可编辑重建结果](examples/nature-cell-painting/preview.png)
 
+**编辑状态截图（用户提供）：**
+
+![选中多个独立对象时的编辑界面](examples/nature-cell-painting/editing-screenshot.png)
+
+截图中的选择框、控制点和旋转手柄展示了独立对象的选中状态。实际可编辑范围见下方说明。
+
 共 149 个独立对象：41 个原生文本框、98 个图形与连线、10 个独立图片对象。照片、连续密度场及特征向量保留原图像素；其内部标注仍为像素。文字、示意结构及符号经原生重绘，字体与几何外观存在细节差别。没有重新运行论文算法，也没有生成新的实验结果。
 
 图片来源：[Moshkov et al., Nature Communications 15, 1594 (2024), Fig. 1](https://doi.org/10.1038/s41467-024-45999-1)，按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 使用；PPT 为改编版本，来源与改编说明同时保留在页脚和备注。对象数不能换算为“可编辑百分比”。
